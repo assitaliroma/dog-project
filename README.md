@@ -26,3 +26,7 @@ Will lunch the app, this app by default will use the hound breed. However, you c
 ### `test`
 
 Run our test suite<br>
+
+## How to run the app with different breeds
+
+1. `yarn start --breed=african` for example or any other valid breed
