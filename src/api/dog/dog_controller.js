@@ -11,7 +11,7 @@ const ApiClient = axios.create({
 })
 
 // Query the API to get the sub breeds of a particular breed
-const getSubBreeds = (breed) => ApiClient.get('breeds/list/all');
+const getSubBreeds = () => ApiClient.get('breeds/list/all');
 
 // Query the API to get the Images of a particular breed
 const getBreedImages = (breed) => ApiClient.get(`breed/${breed}/images`);
